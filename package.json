@@ -1,21 +1,21 @@
 {
-  "name": "projectBoilerplate",
+  "name": "SublimeThemeCreator",
   "version": "0.0.0",
-  "description": "Matt McFadyen's boilerplate for a large project",
+  "description": "SublimeText3 Theme Creator",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mmcfadyen91/gruntDemo.git"
+    "url": "https://github.com/mmcfadyen91/SublimeThemeCreator.git"
   },
   "author": "@mattmcfad",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mmcfadyen91/gruntDemo/issues"
+    "url": "https://github.com/mmcfadyen91/SublimeThemeCreator/issues"
   },
-  "homepage": "https://github.com/mmcfadyen91/gruntDemo",
+  "homepage": "https://github.com/mmcfadyen91/SublimeThemeCreator",
   "devDependencies": {
     "coffeelint": "^1.5.2",
     "grunt": "^0.4.5",
