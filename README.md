@@ -5,7 +5,7 @@ App to create custom SublimeText3 Themes
 
 ## Technologies
 * Angular
-* Coffeescript
+* CoffeeScript
 * Jade
 * Stylus
 * Grunt
@@ -21,7 +21,7 @@ npm install
 	* Update your Name, Description, Repository, Homepage etc.
 3. Familiarize yourself with the file structure
 	* Dev
-		* Handles all raw files you are developing including Jade, Stylus and multiple JavaScript files
+		* Handles all raw files you are developing including Jade, Stylus and multiple CoffeeScript & JavaScript files
 	* Dist
 		* Contains files that should be placed on a webserver.
 		* All files in this folder have been compiled and concatenated.
@@ -35,3 +35,28 @@ npm install
 	```
 	grunt deploy
 	```
+
+## Installation
+
+#### Node
+[Download](http://nodejs.org)
+
+#### CoffeeScript
+```
+sudo npm install -g coffee-script
+```
+
+#### Jade
+```
+sudo npm install -g jade
+```
+
+#### Stylus
+```
+sudo npm install -g stylus
+```
+
+#### Grunt
+```
+sudo npm install -g grunt-cli
+```

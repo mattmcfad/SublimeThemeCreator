@@ -150,6 +150,6 @@ module.exports = function(grunt) {
 	grunt.registerTask('default', ['coffeelint','coffee','jshint','concat','jade','connect','stylus','autoprefixer','watch']);
 
 	//uglify for distribution to live server
-	grunt.registerTask('deploy', ['jshint','concat','uglify','jade','connect','stylus','autoprefixer','watch']);
+	//grunt.registerTask('deploy', ['jshint','concat','uglify','jade','connect','stylus','autoprefixer','watch']);
 
 };
