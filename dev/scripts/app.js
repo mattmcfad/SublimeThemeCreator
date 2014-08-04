@@ -1,7 +1,13 @@
 (function() {
-  (function() {
-    console.log("JavaScript Works");
-    console.log(Math.ceil(11 / 3));
-  })();
+  var app;
+
+  app = angular.module('EditorApp', []);
+
+  app.controller('themeEditor', function() {
+    this.theme = 'test';
+    this.setTheme(input)(function() {
+      this.theme = input;
+    });
+  });
 
 }).call(this);
