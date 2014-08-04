@@ -17,13 +17,13 @@ module.exports = function(grunt) {
 		},
 		//lint my coffee
 		coffeelint: {
-			app: ['dev/scripts/*.coffee']
+			app: ['dev/scripts/coffee/*.coffee']
 		},
 		//compile coffee
 		coffee: {
 			compile: {
 				files: {
-					'dev/scripts/app.js':'dev/scripts/*.coffee',
+					'dev/scripts/app.js':'dev/scripts/coffee/*.coffee',
 
 				}
 			}
@@ -118,7 +118,7 @@ module.exports = function(grunt) {
 				}
 			},
 			coffeescript: {
-				files: ['dev/scripts/*.coffee'],
+				files: ['dev/scripts/coffee/*.coffee'],
 				tasks: ['coffeelint','coffee'],
 				options: {
 					livereload: true
