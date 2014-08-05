@@ -1,7 +1,7 @@
 (function() {
   var app;
 
-  app = angular.module('EditorApp', []);
+  app = angular.module('ThemeEditorApp', []);
 
   app.controller('themeEditor', function() {
     this.theme = 'test';
