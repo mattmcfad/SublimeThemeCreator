@@ -1,9 +1,9 @@
-app = angular.module 'EditorApp', []
+app = angular.module 'ThemeEditorApp', []
 
-app.controller 'themeEditor', ->
-  @theme= 'test'
-  @setTheme(input) ->
-    @theme = input
+app.controller 'themeEditor', ['$scope', ($scope)->
+  $scope.theme= 'test'
+  $scope.setTheme(input) ->
+    $scope.theme = input
     return
   return
-
+]

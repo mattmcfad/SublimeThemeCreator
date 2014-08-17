@@ -3,11 +3,13 @@
 
   app = angular.module('ThemeEditorApp', []);
 
-  app.controller('themeEditor', function() {
-    this.theme = 'test';
-    this.setTheme(input)(function() {
-      this.theme = input;
-    });
-  });
+  app.controller('themeEditor', [
+    '$scope', function($scope) {
+      $scope.theme = 'test';
+      $scope.setTheme(input)(function() {
+        $scope.theme = input;
+      });
+    }
+  ]);
 
 }).call(this);
